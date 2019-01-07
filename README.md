@@ -1,6 +1,6 @@
 # govtech-assignment
 
-Simple REST API with a single `/user` endpoint. Built on top of Spring Boot framework utilising the following starters and dependencies:
+Simple REST API with a single `/users` endpoint. Built on top of Spring Boot framework utilising the following starters and dependencies:
 1. Spring Data REST to serve Hypermedia driven RESTful endpoints
 2. Embedded mongoDB to store data transiently
 3. Opencsv to parse CSV data
