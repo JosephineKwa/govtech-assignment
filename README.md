@@ -69,7 +69,7 @@ userId: String
  [and here](https://docs.spring.io/spring-data/rest/docs/current/reference/html/#paging-and-sorting).
  These include `?page`, `?size`, and `?sort` to paginate, limit and sort results. For example:
    - To limit page size to 1: http://localhost:8080/users?size=1
-   - To get 2nd page with page size 1 (0-based): http://localhost:8080/users?size=1&page=1
+   - To get 2nd page(0-based) with page size 1: http://localhost:8080/users?size=1&page=1
    - To sort results by name in descending order: http://localhost:8080/users?sort=name,desc
 2. The application is pre-populated with the example data in the `users.csv` file
 3. 😊
