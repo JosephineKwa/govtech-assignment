@@ -7,7 +7,7 @@ Simple REST API with a single `/users` endpoint. Built on top of Spring Boot fra
 
 ## Acceptance Criteria Instructions
 ### Acceptance Criteria 1
-To read and serve user data from CSV, paste the csv data into the `users.csv` file at `src/main/resources/users.csv`
+To read and serve user data from CSV, paste the CSV data into the `users.csv` file at `src/main/resources/users.csv`
 ### Acceptance Criteria 2
 To output valid users with valid salary within range (0 <= salary <= 4000), use the following endpoint:
 http://localhost:8080/users/search/findBySalaryBetweenInclusive?from=0&to=4000
@@ -30,7 +30,7 @@ Returns a single user with the specified ID.
 userId: String
 ```
 #### - `GET /users/search/findBySalaryBetweenInclusive?from={from}&to={to}`
-Returns a list of users with salary within the specified range.`
+Returns a list of users with salary within the specified range.
 ##### Query
 ```
 from: Number
@@ -38,7 +38,7 @@ to: Number
 ```
 ### PUT Methods
 #### - `PUT /users/{userId}`
-Updates a single user with the specified ID.`
+Updates a single user with the specified ID.
 ##### Parameters
 ```
 userId: String
@@ -58,7 +58,7 @@ salary: Number
 ```
 ### DELETE Methods
 #### - `DELETE /users/{userId}`
-Deletes a single user with the specified ID.`
+Deletes a single user with the specified ID.
 ##### Parameters
 ```
 userId: String
